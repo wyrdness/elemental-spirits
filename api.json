@@ -1,9 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/elemental-spirits",
     "maintainers": [
       {
@@ -20,385 +19,108 @@
   "phenomenon": {
     "id": "elemental-spirits",
     "name": "Elemental Spirits",
-    "aliases": [
-      {
-        "name": "Elementals",
-        "language": "English"
-      },
-      {
-        "name": "Nature Spirits",
-        "language": "English"
-      }
-    ],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Folklore",
+    "aliases": [],
+    "category": "|_ENTITY_SPIRIT_|",
+    "subcategory": "connecting humanity to natural forces and serve as both folklore entities and occult/spiritual concepts.",
     "tags": [
-      "nature-spirits",
       "folklore",
-      "alchemy",
-      "occultism",
-      "four-elements",
-      "paracelsus",
-      "neopaganism"
+      "mythology"
     ],
-    "status": "folkloric",
+    "status": "documented",
     "description": {
-      "summary": "Nature spirits associated with the four classical elements (earth, air, fire, water), formalized by Paracelsus in the 16th century but with roots in ancient traditions.",
-      "full": "Elemental spirits are supernatural beings associated with the four classical elements: earth (gnomes), air (sylphs), water (undines/nymphs), and fire (salamanders). While elemental beings appear in ancient mythologies worldwide, the formal classification was systematized by Swiss alchemist Paracelsus in the 16th century. These entities are believed to embody and control elemental forces, residing in their respective natural domains. Ancient roots include Greek nymphs, Germanic dwarfs and kobolds, and various nature spirits from global traditions. In modern times, elementals feature prominently in ceremonial magic, Theosophy, Wicca, neopaganism, and fantasy literature. They represent an enduring archetype connecting humanity to natural forces and serve as both folklore entities and occult/spiritual concepts."
+      "summary": "Elemental spirits are supernatural beings associated with the four classical elements: **earth, air, fire, and water**.",
+      "full": "Elemental spirits are supernatural beings associated with the four classical elements: **earth, air, fire, and water**. While elemental beings appear in ancient mythologies worldwide, the formal classification was systematized by Swiss alchemist **Paracelsus** in the 16th century. These entities are believed to embody and control elemental forces, residing in their respective natural domains. They represent an enduring archetype connecting humanity to natural forces and serve as both folklore entities and occult/spiritual concepts."
     },
     "etymology": {
-      "origin": "From Latin 'elementum' (element, fundamental principle)",
-      "meaning": "Spirits of the fundamental elements of nature",
-      "first_formal_use": "Paracelsus, 16th century"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT",
-      "type": "Folklore",
-      "subtype": "Nature spirits",
-      "variant": "Four elements classification"
+      "category": "|_ENTITY_SPIRIT_|",
+      "type": "connecting humanity to natural forces and serve as both folklore entities and occult/spiritual concepts.",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "fairies",
-        "name": "Fairies",
-        "relationship": "related",
-        "description": "European nature spirits, overlap with elementals"
-      },
-      {
-        "id": "jinn",
-        "name": "Jinn",
-        "relationship": "similar",
-        "description": "Islamic spirits associated with elements (fire)"
-      },
-      {
-        "id": "nature-spirits",
-        "name": "Nature Spirits",
-        "relationship": "category",
-        "description": "Broader category of spirits tied to nature"
-      }
-    ]
-  },
-  "types": {
-    "fire": {
-      "name": "Salamanders",
-      "element": "Fire",
-      "description": "Fire spirits, often depicted as lizard-like or living flames",
-      "habitat": "Fire, volcanoes, hot places",
-      "characteristics": [
-        "Hot-tempered",
-        "Passionate",
-        "Energetic",
-        "Transformative"
-      ],
-      "mythology": "Associated with transformation and purification"
-    },
-    "air": {
-      "name": "Sylphs",
-      "element": "Air",
-      "description": "Air spirits, depicted as invisible or ethereal winged beings",
-      "habitat": "Sky, wind, mountain peaks",
-      "characteristics": [
-        "Intellectual",
-        "Free-spirited",
-        "Swift",
-        "Invisible or translucent"
-      ],
-      "mythology": "Associated with thought, communication, and inspiration"
-    },
-    "water": {
-      "name": "Undines",
-      "alternate_names": [
-        "Nymphs",
-        "Naiads",
-        "Mermaids"
-      ],
-      "element": "Water",
-      "description": "Water spirits, often female, associated with bodies of water",
-      "habitat": "Rivers, lakes, oceans, springs, waterfalls",
-      "characteristics": [
-        "Emotional",
-        "Flowing",
-        "Nurturing",
-        "Seductive"
-      ],
-      "mythology": "Greek nymphs, mermaids, river spirits across cultures"
-    },
-    "earth": {
-      "name": "Gnomes",
-      "alternate_names": [
-        "Dwarfs",
-        "Kobolds",
-        "Brownies"
-      ],
-      "element": "Earth",
-      "description": "Earth spirits, often depicted as small, sturdy beings living underground",
-      "habitat": "Underground, caves, forests, mines",
-      "characteristics": [
-        "Stable",
-        "Practical",
-        "Guardians of treasures",
-        "Connected to minerals and plants"
-      ],
-      "mythology": "Germanic dwarfs, kobolds, brownies, dwarves in folklore"
-    }
+    "related_phenomena": []
   },
   "characteristics": {
-    "general": {
-      "nature": "Embodiments of elemental forces",
-      "appearance": "Varies by element and cultural tradition",
-      "intelligence": "Ranges from simple nature forces to complex beings",
-      "interaction": "Can interact with humans in various ways"
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
+    "abilities": [],
     "behavior": {
-      "habitat_bound": "Tied to their respective element and natural locations",
-      "disposition": "Variable - can be helpful, neutral, or mischievous/dangerous",
-      "patterns": [
-        "Embodying qualities of their element",
-        "Guarding natural places",
-        "Interacting with humans who respect nature",
-        "Sometimes helping or hindering human endeavors"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
   "distribution": {
     "range": {
-      "description": "Global concept with regional variations. Paracelsian classification primarily European, but elemental nature spirits exist worldwide.",
-      "continents": [
-        "All continents"
-      ],
-      "cultural_variations": "Every culture has nature spirits corresponding roughly to elements"
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Ancient nature spirit beliefs worldwide. Greek nymphs and daimones, Germanic dwarfs and elves, Celtic fairies, various indigenous traditions.",
-      "paracelsus_formalization": "Paracelsus (1493-1541) systematized elemental classification in his alchemical and magical works",
-      "earlier_traditions": "Nature spirits in animistic and pagan traditions predating Paracelsus by millennia"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Ancient",
-        "event": "Nature spirit traditions",
-        "significance": "Global cultures recognize spirits in nature",
-        "source": "Mythology worldwide"
-      },
-      {
-        "date": "Ancient Greece",
-        "event": "Nymphs and daimones",
-        "significance": "Greek categorization of nature spirits",
-        "source": "Greek mythology"
-      },
-      {
-        "date": "Medieval",
-        "event": "European folklore",
-        "significance": "Dwarfs, elves, kobolds, brownies in Germanic and Celtic tradition",
-        "source": "Medieval folklore"
-      },
-      {
-        "date": "1530s",
-        "event": "Paracelsus systematization",
-        "significance": "Formal four-element classification of elementals",
-        "source": "Paracelsus' writings"
-      },
-      {
-        "date": "1600s-1800s",
-        "event": "Occult revival",
-        "significance": "Elementals in ceremonial magic and alchemy",
-        "source": "Occult literature"
-      },
-      {
-        "date": "Late 1800s",
-        "event": "Theosophy adoption",
-        "significance": "Blavatsky and Theosophists incorporate elementals",
-        "source": "Theosophical texts"
-      },
-      {
-        "date": "1900s-present",
-        "event": "Modern occultism",
-        "significance": "Elementals in Wicca, ceremonial magic, neopaganism",
-        "source": "Modern occult practices"
-      },
-      {
-        "date": "20th century",
-        "event": "Fantasy literature",
-        "significance": "Elementals become fantasy fiction staple",
-        "source": "Fantasy genre"
-      }
-    ]
+    "timeline": []
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Greek nymphs (Naiads, Dryads, Oreads)",
-        "Germanic dwarfs and kobolds",
-        "Celtic fairies and nature spirits",
-        "Salamander legends in alchemy",
-        "Global animistic traditions"
-      ],
-      "functions": [
-        "Explaining natural phenomena",
-        "Teaching respect for nature",
-        "Personifying elemental forces",
-        "Magical and alchemical symbolism"
-      ]
-    },
-    "religious_spiritual": {
-      "traditions": [
-        {
-          "name": "Theosophy",
-          "role": "Devas and nature spirits in spiritual hierarchy"
-        },
-        {
-          "name": "Wicca/Neopaganism",
-          "role": "Called upon in rituals, guardians of quarters"
-        },
-        {
-          "name": "Ceremonial Magic",
-          "role": "Invoked in elemental workings"
-        },
-        {
-          "name": "Alchemy",
-          "role": "Symbolic and practical elemental forces"
-        }
-      ]
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Fantasy fiction (D&D, video games)",
-        "Occult and magical texts",
-        "Children's literature (gnomes, fairies)"
-      ],
-      "media": [
-        "Anime and manga (elemental spirits common)",
-        "Video games (elemental creatures)",
-        "Fantasy role-playing"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
-  },
-  "theories": {
-    "folkloric": [
-      {
-        "name": "Cultural Archetypes",
-        "description": "Elementals represent archetypal forces of nature in human consciousness",
-        "evidence_cited": [
-          "Universal across cultures",
-          "Jungian archetypal analysis"
-        ]
-      },
-      {
-        "name": "Nature Personification",
-        "description": "Human tendency to personify natural forces",
-        "evidence_cited": [
-          "Animism worldwide",
-          "Psychological need to relate to nature"
-        ]
-      }
-    ],
-    "spiritual": [
-      {
-        "name": "Actual Spirits",
-        "description": "Real spiritual beings inhabiting elemental realms",
-        "proponents": [
-          "Theosophists",
-          "Ceremonial magicians",
-          "Neopagans"
-        ],
-        "evidence_cited": [
-          "Spiritual experiences",
-          "Magical workings",
-          "Clairvoyant perceptions"
-        ]
-      },
-      {
-        "name": "Thought-forms",
-        "description": "Created by collective belief and maintained by energy",
-        "evidence_cited": [
-          "Tulpa/egregore concepts",
-          "Cultural persistence"
-        ]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Pure Mythology",
-        "description": "Entirely mythological with no objective reality",
-        "evidence_cited": [
-          "No physical evidence",
-          "Cultural variation shows human creation"
-        ]
-      },
-      {
-        "name": "Symbolic/Psychological",
-        "description": "Useful symbols and psychological tools, not literal entities",
-        "evidence_cited": [
-          "Effectiveness as meditation tools",
-          "Metaphorical utility"
-        ]
-      }
-    ]
   },
   "research": {
-    "academic_study": "Studied by folklorists, religious scholars, and historians of magic",
-    "researchers": [
-      {
-        "name": "Paracelsus",
-        "contribution": "Formalized four-element elemental classification",
-        "period": "1493-1541"
-      },
-      {
-        "name": "Helena Blavatsky",
-        "contribution": "Incorporated elementals into Theosophical system",
-        "period": "Late 1800s"
-      },
-      {
-        "name": "Israel Regardie",
-        "contribution": "Elemental magic in Golden Dawn tradition",
-        "period": "1900s"
-      }
-    ]
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-  "sources": [
-    {
-      "id": "paracelsus-works",
-      "type": "historical",
-      "title": "Paracelsus' Alchemical and Magical Works",
-      "authors": [
-        "Paracelsus"
-      ],
-      "date": "1530s-1540s"
-    },
-    {
-      "id": "blavatsky-1877",
-      "type": "book",
-      "title": "Isis Unveiled",
-      "authors": [
-        "Helena Blavatsky"
-      ],
-      "publication": "J.W. Bouton",
-      "date": "1877"
-    },
-    {
-      "id": "regardie-1938",
-      "type": "book",
-      "title": "The Golden Dawn",
-      "authors": [
-        "Israel Regardie"
-      ],
-      "publication": "Llewellyn",
-      "date": "1938"
-    },
-    {
-      "id": "lecouteux-2016",
-      "type": "book",
-      "title": "The Tradition of Household Spirits",
-      "authors": [
-        "Claude Lecouteux"
-      ],
-      "publication": "Inner Traditions",
-      "date": "2016",
-      "isbn": "978-1620553992"
-    }
-  ]
+  "sources": []
 }
