@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/elemental-spirits",
     "maintainers": [
       {
@@ -16,111 +16,297 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "elemental-spirits",
     "name": "Elemental Spirits",
-    "aliases": [],
-    "category": "|_ENTITY_SPIRIT_|",
-    "subcategory": "connecting humanity to natural forces and serve as both folklore entities and occult/spiritual concepts.",
+    "aliases": [
+      { "name": "Elementals", "language": "English" },
+      { "name": "Sagani", "language": "Latin (Paracelsus)", "meaning": "Paracelsus's collective term for the four elementals (De Meteoris)" },
+      { "name": "Gnome", "meaning": "Earth elemental in Paracelsus's classification" },
+      { "name": "Undine", "language": "Latin", "meaning": "Water elemental, from unda ('wave')" },
+      { "name": "Sylph", "meaning": "Air elemental in Paracelsus's classification" },
+      { "name": "Salamander", "meaning": "Fire elemental in Paracelsus's classification" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Occult / alchemical nature spirits of the four classical elements",
     "tags": [
-      "folklore",
-      "mythology"
+      "occult",
+      "alchemy",
+      "paracelsus",
+      "four-elements",
+      "renaissance",
+      "european-folklore",
+      "esoteric"
     ],
     "status": "documented",
     "description": {
-      "summary": "Elemental spirits are supernatural beings associated with the four classical elements: **earth, air, fire, and water**.",
-      "full": "Elemental spirits are supernatural beings associated with the four classical elements: **earth, air, fire, and water**. While elemental beings appear in ancient mythologies worldwide, the formal classification was systematized by Swiss alchemist **Paracelsus** in the 16th century. These entities are believed to embody and control elemental forces, residing in their respective natural domains. They represent an enduring archetype connecting humanity to natural forces and serve as both folklore entities and occult/spiritual concepts."
+      "summary": "The four classes of nature spirits — gnomes (earth), undines (water), sylphs (air), and salamanders (fire) — codified in the 16th-century writings of Paracelsus and elaborated through Rosicrucian, Theosophical, and modern occult traditions.",
+      "full": "Elemental spirits, or 'elementals', are mythic supernatural beings systematized in the alchemical and occult writings of the Swiss physician Paracelsus (1493/4–1541), who organized them into four classes corresponding to the classical Empedoclean elements: gnomes (earth), undines or nymphs (water), sylphs (air), and salamanders (fire). Paracelsus described them not as pure spirits but as intermediate beings — invisible yet possessing humanoid bodies, capable of eating, sleeping, and clothing themselves — and held that they lacked an immortal soul, but could acquire one through marriage with a human being. His foundational text 'A Book on Nymphs, Sylphs, Pygmies, and Salamanders, and on the Other Spirits' (Liber de Nymphis, sylphis, pygmaeis et salamandris et de caeteris spiritibus), part of the Philosophia Magna, was first printed in 1566 after his death. The framework was elaborated by Heinrich Cornelius Agrippa (De Occulta Philosophia, 1531–1533) and dramatically popularized by the Abbé de Montfaucon de Villars's 1670 satirical work 'Comte de Gabalis', which inspired Alexander Pope's 'The Rape of the Lock' (1712) and Friedrich de la Motte Fouqué's romantic novella 'Undine' (1811). Modern Theosophical, Rosicrucian, and Wiccan currents continue to invoke elementals as spirits of nature; the framework also pervades fantasy fiction and games, including 'Dungeons & Dragons'."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Latin elementalis ('elemental'), from elementum, applied as a noun to nature spirits in 16th- and 17th-century occult writings.",
+      "meaning": "A spirit or being of, and confined to, one of the four classical elements: earth, water, air, or fire.",
+      "first_use": "Mid-16th century in Paracelsus; the Latin terms gnomus, undina, and sylph appear to originate in his works."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_ENTITY_SPIRIT_|",
-      "type": "connecting humanity to natural forces and serve as both folklore entities and occult/spiritual concepts.",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Nature spirit",
+      "subtype": "Element-bound being (Paracelsian system)",
+      "variant": "European Renaissance and post-Renaissance occultism"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "gnome", "name": "Gnome", "relationship": "subset", "description": "Earth elemental in Paracelsus's classification." },
+      { "id": "undine", "name": "Undine", "relationship": "subset", "description": "Water elemental in Paracelsus's classification." },
+      { "id": "sylph", "name": "Sylph", "relationship": "subset", "description": "Air elemental in Paracelsus's classification." },
+      { "id": "salamander", "name": "Salamander (occult)", "relationship": "subset", "description": "Fire elemental in Paracelsus's classification." },
+      { "id": "kami", "name": "Kami", "relationship": "similar", "description": "Japanese nature-spirit tradition often compared to elementals." },
+      { "id": "yaksha", "name": "Yaksha / Naga", "relationship": "similar", "description": "Buddhist and Hindu nature-spirit categories." },
+      { "id": "homunculus", "name": "Homunculus", "relationship": "related", "description": "Other Paracelsian alchemical creation, conceptually linked to elemental theory." }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Humanoid body", "description": "Paracelsus describes elementals as having physical, humanoid bodies that eat, sleep, and wear clothing.", "frequency": "always" },
+        { "feature": "Element-specific morphology", "description": "Gnomes are short and squat; undines are similar in size to humans; sylphs are taller, rougher and stronger; salamanders are long, narrow and lean.", "frequency": "always" },
+        { "feature": "Invisibility to ordinary perception", "description": "Elementals are normally unseen by ordinary humans and require trained or purified perception to be observed.", "frequency": "common" }
+      ],
+      "morphology": "Humanoid in basic form, but each class is bound to and adapted for its element: gnomes pass through earth and stone, undines inhabit water and drown in fire, sylphs traverse air, salamanders dwell in fire and burn in water."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Element-bound mobility", "description": "Each class moves freely through its native element while being injured or destroyed by its opposite.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Acquisition of soul through human marriage", "description": "Paracelsus held that elementals lacked immortal souls but could acquire one by marriage with a human being.", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Guardianship of natural domains", "description": "In Theosophical and Rosicrucian elaborations, elementals serve as guardians or stewards of their respective elements and natural locations.", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Invocation by adept", "description": "Renaissance and modern occultists describe ritual procedures for perceiving and communicating with elementals.", "frequency": "occasional", "evidence_level": "speculation" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["mountains and underground (gnomes)", "rivers, lakes, seas (undines)", "open air and high places (sylphs)", "fire and volcanic regions (salamanders)"],
+      "diet": "Paracelsus describes them as eating like humans, though often of the substance of their element.",
+      "patterns": [
+        "Each class is confined to and adapted for one of the four classical elements",
+        "Strict separation from beings of the opposing element",
+        "In Paracelsus, elementals form their own societies and reproduce among themselves"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Conceptually global — wherever earth, water, air, or fire is found — but the systematic classification originates in Western European Renaissance occultism and has spread globally through Rosicrucian, Theosophical, and modern esoteric currents.",
+      "continents": ["Europe", "Asia", "North America", "Worldwide (in modern occultism)"],
+      "countries": ["Switzerland", "Germany", "France", "United Kingdom", "United States"],
+      "regions": ["Western Europe", "global Western occult community"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1566-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "First printing of Paracelsus's 'Liber de Nymphis, sylphis, pygmaeis et salamandris' (1566), within the Philosophia Magna"
+      },
+      "peak_activity_periods": [
+        { "period": "1531–1566", "description": "Founding texts: Agrippa's De Occulta Philosophia and Paracelsus's Book on Nymphs, Sylphs, Pygmies, and Salamanders" },
+        { "period": "1670–1712", "description": "Popularization through Comte de Gabalis and Pope's The Rape of the Lock" },
+        { "period": "1811–1900", "description": "Romantic-era literary use (Fouqué's Undine) and Theosophical reinterpretation" },
+        { "period": "1970–present", "description": "Adoption in Wicca, contemporary Paganism, and fantasy gaming" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Synthesis of classical four-element theory (Empedocles), Christian angelology, European folklore (kobolds, nymphs, water-beings), and alchemical-magical thought of the Renaissance.",
+      "earliest_accounts": "Heinrich Cornelius Agrippa's 'De Occulta Philosophia' (1531–1533) describes spirits associated with the four elements without standardized names; Paracelsus's posthumously published 'Liber de Nymphis, sylphis, pygmaeis et salamandris' (1566) supplies the names and the systematic doctrine.",
+      "folklore_connections": "Drawn from classical nymphs and pygmies; later folklore connections include Germanic kobolds and dwarves, Celtic water-spirits, and salamander myths from antiquity."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Antiquity", "event": "Empedoclean four-element theory and classical nymph/pygmy/salamander myths circulate in the Greco-Roman world", "significance": "Conceptual substrate", "source": "Wikipedia: Elemental" },
+      { "date": "1531", "event": "Heinrich Cornelius Agrippa publishes 'De Occulta Philosophia' (1531–1533) describing four classes of spirits associated with the elements", "significance": "Pre-Paracelsian framework", "source": "Wikipedia: Elemental" },
+      { "date": "1566", "event": "Paracelsus's 'Liber de Nymphis, sylphis, pygmaeis et salamandris' first printed (posthumously) within the Philosophia Magna", "significance": "Foundational text of elemental doctrine", "source": "Wikipedia: Elemental" },
+      { "date": "1670", "event": "Abbé de Montfaucon de Villars publishes 'Comte de Gabalis', a satirical popularization of elemental doctrine introducing 'sylphide' and 'gnomide'", "significance": "Brings elementals into French and English literature", "source": "Wikipedia: Elemental" },
+      { "date": "1712", "event": "Alexander Pope publishes 'The Rape of the Lock', citing Comte de Gabalis as source for its sylphs and gnomes", "significance": "Canonical English-language literary deployment of elementals", "source": "Wikipedia: Elemental" },
+      { "date": "1811", "event": "Friedrich de la Motte Fouqué publishes 'Undine', a Romantic-era novella centered on a water elemental", "significance": "Most influential literary elemental of the 19th century", "source": "Wikipedia: Undine" },
+      { "date": "1888", "event": "H. P. Blavatsky's 'The Secret Doctrine' (1888) integrates elementals into Theosophical cosmology", "significance": "Bridge from Renaissance occultism to modern esotericism", "source": "Theosophical literature" }
+    ],
+    "modern_era": "Contemporary occultism (Wicca, ceremonial magic, Theosophy, Rosicrucianism) routinely invokes the four elementals in ritual, especially in 'circle-casting' that calls the four directions. The framework also pervades fantasy literature and gaming — Algernon Blackwood's 'The Nemesis of Fire', Michael Moorcock's Elric novels (1972–), and 'Dungeons & Dragons' (1974–) being central examples — and shapes contemporary popular conceptions of element-aligned beings."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1566", "latest": "2026" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "elemental-evidence-paracelsus-1566",
+        "type": "treatise",
+        "name": "Liber de Nymphis, sylphis, pygmaeis et salamandris",
+        "date": "1566",
+        "description": "Paracelsus's treatise on elementals, first printed posthumously as part of his Philosophia Magna.",
+        "status": "verified",
+        "analysis": "Foundational source of the four-class elemental doctrine; not evidence of entities but of the doctrine itself.",
+        "source": "Paracelsus, Philosophia Magna (1566)"
+      },
+      {
+        "id": "elemental-evidence-comte-de-gabalis",
+        "type": "literary work",
+        "name": "Comte de Gabalis",
+        "date": "1670",
+        "description": "Satirical French dialogue by Abbé de Montfaucon de Villars popularizing Paracelsian elementals.",
+        "status": "verified",
+        "analysis": "Primary vector of elemental doctrine into French and English literature.",
+        "source": "Montfaucon de Villars (1670), Comte de Gabalis"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Paracelsian elemental ontology",
+        "description": "There exist four real classes of intermediate beings, bound to and constituted by the four classical elements; these beings interact with humans and may be perceived by purified senses.",
+        "proponents": ["Paracelsus", "Heinrich Cornelius Agrippa", "Rosicrucian tradition", "H. P. Blavatsky (Theosophy)"],
+        "evidence_cited": ["Persistent cross-cultural folklore of nature spirits", "Ritual reports of elemental contact in Western magical traditions"]
+      },
+      {
+        "name": "Theosophical / contemporary Pagan view",
+        "description": "Elementals are ensouled or semi-ensouled beings stewarding aspects of the natural world; they are participants in ecological and energetic processes.",
+        "proponents": ["H. P. Blavatsky", "C. W. Leadbeater", "Modern Wiccan practitioners"],
+        "evidence_cited": ["Reported clairvoyant observations", "Subjective experience in ritual practice"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Anthropomorphization of natural phenomena",
+        "description": "Elementals are pre-modern attempts to anthropomorphize physical processes (weather, fire, geology, water) within an animistic framework that has been superseded by natural science.",
+        "proponents": ["Folklorists and historians of science"],
+        "evidence_cited": ["Direct correspondence between elemental classes and Empedoclean elements", "Continuity with pre-Christian nature-spirit folklore"]
+      },
+      {
+        "name": "Literary and esoteric construction",
+        "description": "Paracelsus's elemental system is a synthesis of classical sources, folklore, and theology produced in the context of Renaissance philosophical reform; later 'sightings' are products of literary and esoteric tradition rather than independent observation.",
+        "proponents": ["Historians of esotericism (e.g. Wouter Hanegraaff)"],
+        "evidence_cited": ["Textual genealogy from Agrippa through Paracelsus to Comte de Gabalis", "Absence of independent reports outside the Western esoteric corpus"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Renaissance alchemical and occult writings",
+        "Rosicrucianism",
+        "Theosophy",
+        "Modern Wicca and ceremonial magic"
+      ],
+      "stories": [
+        "Paracelsus's account of elementals and their potential marriage with humans",
+        "Comte de Gabalis's satirical dialogues with an elemental adept",
+        "Fouqué's 'Undine' (1811): a water elemental who marries a knight"
+      ],
+      "beliefs": "Within Western esoteric currents, elementals are commonly invoked at the four cardinal directions in ritual practice."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "A Book on Nymphs, Sylphs, Pygmies, and Salamanders — Paracelsus (printed 1566)",
+        "Comte de Gabalis — Abbé de Montfaucon de Villars (1670)",
+        "The Rape of the Lock — Alexander Pope (1712)",
+        "Undine — Friedrich de la Motte Fouqué (1811)",
+        "The Nemesis of Fire — Algernon Blackwood (1908)",
+        "Elric of Melniboné — Michael Moorcock (1972)"
+      ],
+      "film_tv": [
+        "Elemental (Pixar, 2023) — popular reinterpretation of element-aligned beings"
+      ],
+      "games": [
+        "Dungeons & Dragons (1974–)",
+        "Final Fantasy series — element-aligned summons"
+      ],
+      "music": [],
+      "other": [
+        "Wiccan circle-casting and quarter calls",
+        "Theosophical and Rosicrucian instructional literature"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Paracelsus (Theophrastus von Hohenheim)", "affiliation": "Renaissance physician and alchemist", "contribution": "Codified the four-class elemental doctrine in his Philosophia Magna", "period": "early 16th century" },
+      { "name": "Heinrich Cornelius Agrippa", "affiliation": "Renaissance scholar and occultist", "contribution": "De Occulta Philosophia (1531–1533): pre-Paracelsian framework of element-associated spirits", "period": "early 16th century" },
+      { "name": "Abbé de Montfaucon de Villars", "affiliation": "French cleric and writer", "contribution": "Comte de Gabalis (1670): satirical popularization of Paracelsian elementals", "period": "17th century" },
+      { "name": "H. P. Blavatsky", "affiliation": "Theosophical Society", "contribution": "Integrated elementals into Theosophical cosmology in The Secret Doctrine (1888)", "period": "late 19th century" },
+      { "name": "Wouter J. Hanegraaff", "affiliation": "University of Amsterdam (history of hermetic philosophy)", "contribution": "Modern academic analysis of Western esoteric currents including the elemental tradition", "period": "1990s–present" }
+    ],
+    "organizations": [
+      { "name": "Theosophical Society", "url": "https://www.theosophical.org", "focus": "Esoteric study including elementals" },
+      { "name": "Rosicrucian Order, AMORC", "url": "https://www.rosicrucian.org", "focus": "Western esoteric tradition incorporating elemental doctrine" }
+    ],
+    "ongoing_studies": "Active study of elementals is concentrated in the academic history of Western esotericism (e.g. work by Wouter Hanegraaff, Antoine Faivre) and within practising occult communities; no scientific research treats elementals as physical entities."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-elemental",
+      "type": "website",
+      "title": "Elemental",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elemental",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-undine",
+      "type": "website",
+      "title": "Undine",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Undine",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-sylph",
+      "type": "website",
+      "title": "Sylph",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sylph",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "paracelsus-1566",
+      "type": "book",
+      "title": "Liber de Nymphis, sylphis, pygmaeis et salamandris et de caeteris spiritibus (A Book on Nymphs, Sylphs, Pygmies, and Salamanders, and on the Other Spirits)",
+      "authors": ["Paracelsus"],
+      "publication": "Philosophia Magna (posthumous)",
+      "date": "1566"
+    },
+    {
+      "id": "villars-1670",
+      "type": "book",
+      "title": "Comte de Gabalis",
+      "authors": ["Abbé de Montfaucon de Villars"],
+      "publication": "Paris",
+      "date": "1670"
+    }
+  ]
 }
